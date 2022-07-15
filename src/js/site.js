@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import '../css/styles.css'
 
-import HelloWorld from './components/HelloWorld.vue'
+import free_trial_form from './components/free-trial-form.vue'
 
 const app = createApp({})
 
-app.component('hello-world', HelloWorld);
+app.component('free-trial-form', free_trial_form);
 
 app.mount('#app')
