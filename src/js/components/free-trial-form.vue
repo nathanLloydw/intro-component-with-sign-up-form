@@ -1,5 +1,5 @@
 <template>
-  <form class="bg-white w-full rounded-lg box-shadow flex flex-col p-8" @submit.prevent="submit_form">
+  <form class="bg-white w-full rounded-lg box-shadow flex flex-col p-6 md:p-8" @submit.prevent="submit_form">
     <input type="text" id="fname" name="fname" placeholder="First Name" autocomplete="given-name" v-model="this.form.first_name.value"
            :class="this.form.first_name.validated ? 'mb-4' : 'mb-1 error'">
     <i class="w-full text-end text-red text-sm pb-3 pr-1" v-if="!this.form.first_name.validated">First Name cannot be empty</i>

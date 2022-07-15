@@ -20,6 +20,10 @@ module.exports = {
         {
             'poppins':['poppins']
         },
+        fontSize:
+        {
+
+        }
     },
   },
   plugins: [],

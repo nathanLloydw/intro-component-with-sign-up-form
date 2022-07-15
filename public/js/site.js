@@ -17519,7 +17519,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _this = this;
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("form", {
-    "class": "bg-white w-full rounded-lg box-shadow flex flex-col p-8",
+    "class": "bg-white w-full rounded-lg box-shadow flex flex-col p-6 md:p-8",
     onSubmit: _cache[4] || (_cache[4] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.submit_form && $options.submit_form.apply($options, arguments);
     }, ["prevent"]))
