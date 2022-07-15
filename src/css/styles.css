@@ -4,7 +4,7 @@
 
 html, body { width:100%; height:100%;overflow: auto;}
 
-main { background-image: url('/images/bg-intro-desktop.png');background-repeat: no-repeat; }
+main { background-image: url('public/images/bg-intro-desktop.png');background-repeat: no-repeat; }
 
 input { @apply border border-grayish-blue focus:border-blue caret-blue p-4 rounded-md outline-0 font-medium md:text-base; }
 .box-shadow { box-shadow: 0 7px 0 0 rgb(0 0 0 / 25%); }
